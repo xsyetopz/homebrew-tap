@@ -16,6 +16,15 @@ class JagfxCli < Formula
     end
   end
 
+  on_linux do
+    depends_on arch: :x86_64
+
+    on_intel do
+      url "https://github.com/xsyetopz/JagFx/releases/download/v2.4.1/JagFx.Cli-2.4.1-linux-x64.tar.gz"
+      sha256 "e9df1ebb5ead36bcfa2b4a1fd00225a4c7588a0b4a0d0b9eb80164cc43a8eabb"
+    end
+  end
+
   def install
     bin.install "JagFx.Cli" => "jagfx"
   end

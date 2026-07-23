@@ -23,8 +23,8 @@ brew tap xsyetopz/tap
 
 | Package | Type | Project | Supported hosts |
 | --- | --- | --- | --- |
-| `jagfx-cli` | Formula | [JagFx](https://github.com/xsyetopz/JagFx) command-line converter and inspector | macOS arm64 and Intel |
-| `dehsp` | Formula | [deHSP](https://github.com/xsyetopz/deHSP) HSP 2/3 decompiler | macOS arm64 and Intel |
+| `jagfx-cli` | Formula | [JagFx](https://github.com/xsyetopz/JagFx) command-line converter and inspector | macOS arm64 and Intel; Linux x86_64 |
+| `dehsp` | Formula | [deHSP](https://github.com/xsyetopz/deHSP) HSP 2/3 decompiler | macOS and Linux arm64 and Intel |
 | `xsyetopz-jagfx` | Cask | [JagFx](https://github.com/xsyetopz/JagFx) desktop editor | macOS arm64 and Intel |
 | `xsyetopz-openjoystickdriver` | Cask | [OpenJoystickDriver](https://github.com/xsyetopz/OpenJoystickDriver) menu-bar app | macOS universal |
 

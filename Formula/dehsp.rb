@@ -16,6 +16,18 @@ class Dehsp < Formula
     end
   end
 
+  on_linux do
+    on_arm do
+      url "https://github.com/xsyetopz/deHSP/releases/download/v2.2.0/deHSP-2.2.0-linux-arm64.zip"
+      sha256 "bf68e69be2171054721973c16a7bcbbf8d95c6193fc1086a7fe6a106e79dd58b"
+    end
+
+    on_intel do
+      url "https://github.com/xsyetopz/deHSP/releases/download/v2.2.0/deHSP-2.2.0-linux-x64.zip"
+      sha256 "99b590eb0863458739b2bd63f328382fcae202a665b871bf02f2008004680002"
+    end
+  end
+
   def install
     libexec.install Dir["*"]
     bin.write_exec_script libexec/"dehsp"
