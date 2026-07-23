@@ -17,7 +17,9 @@ class JagfxCli < Formula
   end
 
   on_linux do
-    depends_on arch: :x86_64
+    on_arm do
+      disable! because: "JagFx does not publish a Linux arm64 release"
+    end
 
     on_intel do
       url "https://github.com/xsyetopz/JagFx/releases/download/v2.4.1/JagFx.Cli-2.4.1-linux-x64.tar.gz"
