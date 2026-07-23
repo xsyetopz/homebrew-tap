@@ -1,0 +1,10 @@
+.DS_Store
+
+# Homebrew build and test-bot outputs
+*.bottle.*
+bottle_output.txt
+linkage_output.txt
+steps_output.txt
+skipped_or_failed_formulae-*.txt
+home/
+logs/
