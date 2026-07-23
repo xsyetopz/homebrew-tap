@@ -18,7 +18,7 @@ class JagfxCli < Formula
 
   on_linux do
     on_arm do
-      disable! because: "JagFx does not publish a Linux arm64 release"
+      disable! date: "2026-07-23", because: "JagFx does not publish a Linux arm64 release"
     end
 
     on_intel do
