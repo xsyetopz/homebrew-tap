@@ -18,6 +18,8 @@ class JagfxCli < Formula
 
   on_linux do
     on_arm do
+      url "https://github.com/xsyetopz/JagFx/archive/refs/tags/v2.4.1.tar.gz"
+      sha256 "ea56727a427f1498d0274a793b6171de55198bfeee4e23f61029d5d08a105910"
       disable! date: "2026-07-23", because: "JagFx does not publish a Linux arm64 release"
     end
 
